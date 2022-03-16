@@ -1,17 +1,30 @@
 {
-  "name": "df-vf-nlu",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@google-cloud/dialogflow": "^4.6.0",
-    "axios": "^0.26.1",
-    "cli-ux": "^6.0.9",
-    "dotenv": "^16.0.0"
-  }
+    "name": "voiceflow_dialogflow",
+    "version": "1.0.0",
+    "description": "Connecting Dialogflow API to the Voiceflow Dialog Manager as a custom NLU",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Zoran Slamkov",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:zslamkov/voiceflow_dialogflow"
+    },
+    "homepage": "https://github.com/zslamkov/voiceflow_dialogflow",
+    "keywords": [
+        "nodejs",
+        "voiceflow",
+        "bot",
+        "dialogflow",
+        "javascript"
+    ],
+    "dependencies": {
+        "@google-cloud/dialogflow": "^4.6.0",
+        "axios": "^0.26.1",
+        "cli-ux": "^6.0.9",
+        "dotenv": "^16.0.0"
+    }
 }
